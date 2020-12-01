@@ -160,6 +160,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+    <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -288,6 +289,10 @@
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Account\Activated.cshtml" />
     <Content Include="Views\Home\Events.cshtml" />
+    <Content Include="Views\Event\Index.cshtml" />
+    <Content Include="Views\Event\BookEvent.cshtml" />
+    <Content Include="Views\Event\VenueBooking.cshtml" />
+    <Content Include="Views\Event\JoinEvent.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup />
